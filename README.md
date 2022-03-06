@@ -24,4 +24,8 @@ Then for each day, separated by space:<br />
 
 requires a `python3` and `pandas`
 
+    git clone https://github.com/SavelevGeo/open-weather-short-response && cd open-weather-short-response
+or download the `weather_ui.py` and `weather_request.py` files
 
+and if `python` stands for Python 3.0 or higher:
+    python 
