@@ -53,5 +53,5 @@ the maximum size of the forecast text is 160 symbols. It is the maximum size for
 
 # NB!
 
-The limit for one api key is 60 calls/minute or 1,000,000 calls/month
+The limit for one api key is 60 calls/minute or 1,000,000 calls/month.
 If you are planning to use it more often than once, you need to [get your own API key](https://openweathermap.org/price). With the same limit it is free.
