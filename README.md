@@ -19,3 +19,9 @@ An answer example:
 Being: `14` the first day of the forecast.<br />
 Then for each day, separated by space:<br />
 `13-18-17-12` Morning-Day-Evening-Night temperature in C&deg;`,`[weather id](https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2)`,`probability of precipitation in %
+
+# Getting started
+
+requires a `python3` and `pandas`
+
+
