@@ -1,7 +1,7 @@
 # OpenWeatherShortResponse
 A short response from OpenWeatherMap forecast.
 
-A simple app to put a 5 days weather forecast into 160 characters.<br />
+A simple app to put a 5 days weather forecast into 160 characters. It is sometimes needed when you have to send it for example via SMS<br />
 It gets a request from [OpenWeatherMap.org One Call API](https://openweathermap.org/api/one-call-api), rearranges the daily forecast for 5 days into a short version.
 
 An answer example:
@@ -34,7 +34,24 @@ The main and only window appears:
 
 ![ui](https://user-images.githubusercontent.com/57714410/156938215-1b51b1e7-48a7-4d41-a4ac-1a9c171d3f2e.png)
 
-# Get your point
+# Get your point and take your weather
 As an example you go to your favourite map service and copy the coordinate in decimal `lat, lon` format separated by `,`:
 
 ![google maps](https://user-images.githubusercontent.com/57714410/156938376-5b3c1ed9-6bf5-4d78-8d71-2a363ac2271a.png)
+
+Then press `paste from clipboard`, then `request`
+
+and `copy to clipboard` the response you got
+
+![the request](https://user-images.githubusercontent.com/57714410/156938914-cde42b8b-69d9-4792-8494-a5a03cf07281.png)
+
+# Send it!
+
+the maximum size of the forecast text is 160 symbols. It is the maximum size for the satellite phone online SMS as for [Iridium](https://messaging.iridium.com)
+
+![send sms](https://user-images.githubusercontent.com/57714410/156939049-11c0aee0-698d-4177-9bd4-4534fc69e37f.png)
+
+# NB!
+
+The limit for one api key is 60 calls/minute or 1,000,000 calls/month
+If you are planning to use it more often than once, you need to [get your own API key](https://openweathermap.org/price). With the same limit it is free.
