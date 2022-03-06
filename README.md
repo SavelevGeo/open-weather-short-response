@@ -28,7 +28,7 @@ or download the `weather_ui.py` and `weather_request.py` files
 
 and if `python` stands for `Python 3.0` or higher:
 
-    python weather_request.py
+    python weather_ui.py
 
 The main and only window appears:
 
