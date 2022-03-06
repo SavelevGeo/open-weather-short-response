@@ -21,11 +21,20 @@ Then for each day, separated by space:<br />
 `13-18-17-12` Morning-Day-Evening-Night temperature in C&deg;`,`[weather id](https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2)`,`probability of precipitation in %
 
 # Getting started
-
 requires a `python3` and `pandas`
 
     git clone https://github.com/SavelevGeo/open-weather-short-response && cd open-weather-short-response
 or download the `weather_ui.py` and `weather_request.py` files
 
-and if `python` stands for Python 3.0 or higher:
-    python 
+and if `python` stands for `Python 3.0` or higher:
+
+    python weather_request.py
+
+The main and only window appears:
+
+![ui](https://user-images.githubusercontent.com/57714410/156938215-1b51b1e7-48a7-4d41-a4ac-1a9c171d3f2e.png)
+
+# Get your point
+As an example you go to your favourite map service and copy the coordinate in decimal `lat, lon` format separated by `,`:
+
+![google maps](https://user-images.githubusercontent.com/57714410/156938376-5b3c1ed9-6bf5-4d78-8d71-2a363ac2271a.png)
