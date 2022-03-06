@@ -1,7 +1,8 @@
-# OpenWeatherShortResponse.
+# OpenWeatherShortResponse
 A short response from OpenWeatherMap forecast.
 
-A simple app to put a 5 days weather forecast into 160 characters. It gets a request from [OpenWeatherMap.org One Call API](https://openweathermap.org/api/one-call-api), rearranges the daily forecast for 5 days into a short version.
+A simple app to put a 5 days weather forecast into 160 characters.<br />
+It gets a request from [OpenWeatherMap.org One Call API](https://openweathermap.org/api/one-call-api), rearranges the daily forecast for 5 days into a short version.
 
 An answer example:
 ```
@@ -15,8 +16,6 @@ An answer example:
 20-26-25-23,804,13
 21-30-28-24,803,0
 ```
-Being:`14` the first day of the forecast
-
-Then foar each day, separated by space:
-
-`13-18-17-12` Morning-Day-Evening-Night temperature`,`[a weather id](https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2)`,`
+Being: `14` the first day of the forecast.<br />
+Then for each day, separated by space:<br />
+`13-18-17-12` Morning-Day-Evening-Night temperature in C&deg;`,`[weather id](https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2)`,`probability of precipitation in %
