@@ -21,7 +21,7 @@ Then for each day, separated by space:<br />
 `13-18-17-12` Morning-Day-Evening-Night temperature in C&deg;`,`[weather id](https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2)`,`probability of precipitation in %
 
 # Getting started
-requires a `python3` and `pandas`
+requires a `python3`, `pandas` and `requests`
 
     git clone https://github.com/SavelevGeo/open-weather-short-response && cd open-weather-short-response
 or download the `weather_ui.py` and `weather_request.py` files
