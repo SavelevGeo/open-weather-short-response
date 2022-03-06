@@ -17,4 +17,6 @@ An answer example:
 ```
 Being:`14` the first day of the forecast
 
-`13-18-17-12` Morning-Day-Evening-Night temperature`,`[a weather id](https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2)','
+Then foar each day, separated by space:
+
+`13-18-17-12` Morning-Day-Evening-Night temperature`,`[a weather id](https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2)`,`
