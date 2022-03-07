@@ -56,4 +56,4 @@ the maximum size of the forecast text is 160 symbols. It is the maximum size for
 # NB!
 
 The limit for one api key is 60 calls/minute or 1,000,000 calls/month.
-If you are planning to use it more often than once, you need to [get your own API key](https://openweathermap.org/price). With the same limit it is free.
+If you are planning to use it more often than once, you need to [get your own API key](https://openweathermap.org/price) and replace my API key with it [here](https://github.com/SavelevGeo/open-weather-short-response/blob/22a4ad19a49cdd9beaceec7d01ed38170efc7276/weather_request.py#L8). With the same limit it is free.
