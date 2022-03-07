@@ -4,7 +4,7 @@ A short response from OpenWeatherMap forecast.
 A simple app to put a 5 days weather forecast into 160 characters. It is sometimes needed when you have to send it for example via SMS<br />
 It gets a request from [OpenWeatherMap.org One Call API](https://openweathermap.org/api/one-call-api), rearranges the daily forecast for 5 days into a short version.
 
-An answer example:
+A response example:
 ```
 14                  
 13-18-17-12,804,0   
