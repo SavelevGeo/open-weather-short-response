@@ -35,7 +35,7 @@ The main and only window appears:
 ![ui](https://user-images.githubusercontent.com/57714410/156938215-1b51b1e7-48a7-4d41-a4ac-1a9c171d3f2e.png)
 
 # Get your point and take your weather
-As an example you go to your favourite map service and copy the coordinate in decimal `lat, lon` format separated by `,`:
+As an example, go to your favourite map service and copy the coordinate in decimal `lat, lon` format separated by `,`:
 
 ![google maps](https://user-images.githubusercontent.com/57714410/156938376-5b3c1ed9-6bf5-4d78-8d71-2a363ac2271a.png)
 
