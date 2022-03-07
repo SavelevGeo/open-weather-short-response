@@ -8,39 +8,39 @@ def req(coords, test = True):
 		key = 'd96c1e8e1e406107036f796bfd2c2669'
 		lat, lon = coords.split(', ')
 		response = requests.get(
-							                        f'https://api.openweathermap.org'
-							                        + f'/data/2.5/onecall?'
-							                        + f'lat={lat}&lon={lon}'
-							                        + f'&units=metric'
-							                        + f'&lang=ru'
-							                        + f'&exclude=hourly,minutely'
-							                        + f'&appid={key}'
-							                        ).json()
-		
+					f'https://api.openweathermap.org'
+					+ f'/data/2.5/onecall?'
+					+ f'lat={lat}&lon={lon}'
+					+ f'&units=metric'
+					+ f'&lang=ru'
+					+ f'&exclude=hourly,minutely'
+					+ f'&appid={key}'
+					).json()
+
 		dt = response['current']['dt']
 		off = response['timezone_offset']
 		result_s=pd.to_datetime(dt+off,unit='s')
 		start = int(
-		                  str(result_s).split()[0].split('-')[2]
-		                  )
+			   str(result_s).split()[0].split('-')[2]
+			   )
 		
 		off = response['timezone_offset']
 		dailyDf = pd.DataFrame(response['daily'])
 		
 		tmp = dailyDf.temp.apply(
-		           							        lambda t:
-									                   '-'.join(
-										                           [str(round(dp))
-										                            for dp in
-										                             [
-										                              t['morn'], 
-										                              t['day'], 
-										                              t['eve'], 
-										                              t['night'] 
-										                             ]
-										                           ]
-										                           )
-									                   )
+					lambda t:
+					   '-'.join(
+							   [str(round(dp))
+							    for dp in
+							     [
+							      t['morn'], 
+							      t['day'], 
+							      t['eve'], 
+							      t['night'] 
+							     ]
+							   ]
+							   )
+					)
 		
 		wid = dailyDf.weather.apply(lambda w: w[0]['id'])
 		
@@ -48,24 +48,24 @@ def req(coords, test = True):
 		pop = pop.astype(int)
 		
 		outDf = pd.DataFrame(
-							                     [
-							                      tmp,
-							                      wid,
-							                      pop,
-							                     ]
-							                    ).T
+				     [
+				      tmp,
+				      wid,
+				      pop,
+				     ]
+				    ).T
 		
 		outText = ' '.join(
-					                   [
-					                   str(start),
-					                   outDf.to_csv(
-										                        sep = ',',
-										                        header = None,
-										                        index = None, 
-										                        line_terminator = ' ' 
-									                           )
-					                   ]
-					                  )
+				   [
+				   str(start),
+				   outDf.to_csv(
+						sep = ',',
+						header = None,
+						index = None, 
+						line_terminator = ' ' 
+					   	)
+				   ]
+				  )
 	return outText
 	
 
