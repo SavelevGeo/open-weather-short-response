@@ -45,6 +45,8 @@ and `copy to clipboard` the response you got
 
 ![the request](https://user-images.githubusercontent.com/57714410/156938914-cde42b8b-69d9-4792-8494-a5a03cf07281.png)
 
+The response format is explained [at the top](#openweathershortresponse)
+
 # Send it!
 
 the maximum size of the forecast text is 160 symbols. It is the maximum size for the satellite phone online SMS as for [Iridium](https://messaging.iridium.com)
