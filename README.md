@@ -49,7 +49,7 @@ The response format is explained [at the top](#openweathershortresponse)
 
 # Send it!
 
-the maximum size of the forecast text is 160 symbols. It is the maximum size for the satellite phone online SMS as for [Iridium](https://messaging.iridium.com)
+The maximum size of the forecast text is 160 symbols. It is the maximum size for the satellite phone online SMS as for [Iridium](https://messaging.iridium.com)
 
 ![send sms](https://user-images.githubusercontent.com/57714410/156939049-11c0aee0-698d-4177-9bd4-4534fc69e37f.png)
 
