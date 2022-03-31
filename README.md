@@ -1,7 +1,7 @@
 # OpenWeatherShortResponse
 A short response from OpenWeatherMap forecast.
 
-A simple app to put a 5 days weather forecast into 160 characters.<br />The response can be sent via SMS, for example, if a recipient doesn't have access to the Internet.<br />
+A simple app to put a 5 days weather forecast into 160 characters.<br />The response can be sent via SMS, for example, if your recipient doesn't have access to the Internet.<br />
 It gets a request from [OpenWeatherMap.org One Call API](https://openweathermap.org/api/one-call-api), rearranges the daily forecast for 5 days into a short version.
 
 A response example:
