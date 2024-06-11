@@ -62,7 +62,7 @@ def req(coords, test = True):
 						sep = ',',
 						header = None,
 						index = None, 
-						line_terminator = ' ' 
+						lineterminator = ' ' 
 					   	)
 				   ]
 				  )
