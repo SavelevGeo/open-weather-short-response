@@ -67,5 +67,7 @@ def req(coords, test = True):
 				   ]
 				  )
 	return outText
-	
+
+if __name__ == '__main__':
+	print(req('52.52, 13.41', test = False))	
 
